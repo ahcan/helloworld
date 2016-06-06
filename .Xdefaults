@@ -1,8 +1,14 @@
+! URXVT Icon FILE
+!------------------------------------------------
+
+!URxvt*iconFile:
+
 ! URXVT FONTS
 !------------------------------------------------
  
-URxvt*font: xft:Droid\ Sans\ Mono\ for\ Powerline:size=8
-URxvt*boldFont: xft:Droid\ Sans\ Mono\ for\ Powerline:bold:size=8
+!URxvt*font: xft:Droid\ Sans\ Mono:size=10
+URxvt*font: xft:Droid\ Sans\ Mono\ for\ Powerline:size=10
+URxvt*boldFont: xft:Droid\ Sans\ Mono\ for\ Powerline:bold:size=11
 URxvt*letterSpace: -1
 URxvt*allow_bold: true
 
@@ -29,17 +35,17 @@ URxvt.insecure:                         false
 ! URXVT COPY PASTE SHORTCUTS
 !------------------------------------------------
  
-URxvt.keysym.M-c:                       perl:clipboard:copy
-URxvt.keysym.M-v:                       perl:clipboard:pasteq
+!URxvt.keysym.M-c:                      perl:clipboard:copy
+!URxvt.keysym.M-v:                      perl:clipboard:pasteq
  
 ! URXVT SCROLLBAR AND CURSOR STYLE
 !------------------------------------------------
  
 URxvt*saveLines:                        300000
-URxvt.scrollBar:                        false
+URxvt*scrollBar:                        false
 !URxvt*scrollstyle:                     plain
 URxvt*cursorBlink:                      true
-URxvt*cursorUnderline:          true
+URxvt*cursorUnderline:          	true
 URxvt*cursorColor:                      #4e9a06
  
 ! URXVT TABS
@@ -68,6 +74,9 @@ URxvt.matcher.button: 1
 
 *background:                           [75]#000000
 *foreground:                            #ADADAD
+URxvt*transparent:	true
+URxvt*shading:		60
+!URxvt*inheritPixmap:	true
 urxvt*depth: 32
 urxvt*shading: 50 
 ! Black
